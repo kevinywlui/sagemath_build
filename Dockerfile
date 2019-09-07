@@ -18,3 +18,5 @@ RUN adduser --quiet --shell /bin/bash --gecos ",,," --disabled-password sage
 
 # Use the sage user 
 USER sage
+
+WORKDIR /home/sage
