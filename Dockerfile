@@ -9,7 +9,7 @@ RUN apt-get update -qq \
   libffi-dev libgf2x-dev libcurl4-openssl-dev curl yasm \
   libntl-dev libmpfr-dev libmpc-dev libflint-dev \
   libpcre3-dev libgd-dev \
-  cmake libterm-readline-gnu-perl ninja-build librw-dev \
+  cmake libterm-readline-gnu-perl ninja-build librw-dev python \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
